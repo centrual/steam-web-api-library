@@ -1,0 +1,23 @@
+{
+  "name": "steam_web_api_library",
+  "version": "1.0.0",
+  "main": "Dist/index.js",
+  "license": "MIT",
+  "scripts": {
+    "dist": "del-cli 'dist/' && tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jest-config": "latest",
+    "ts-error": "^1.0.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.9.1",
+    "@types/node": "^13.5.0",
+    "del-cli": "^3.0.0",
+    "jest": "^25.1.0",
+    "ts-jest": "^25.0.0",
+    "typescript": "^3.7.5"
+  }
+}

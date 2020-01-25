@@ -1,0 +1,1 @@
+{"version":3,"file":"LengthOfSteamIdListCanNotBeExceedAHundredError.d.ts","sourceRoot":"","sources":["../../../../Src/Lib/Errors/GetUserSummeries/LengthOfSteamIdListCanNotBeExceedAHundredError.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,UAAU,CAAC;AAE3C,qBAAa,8CAA+C,SAAQ,eAAe;gBACrE,OAAO,CAAC,EAAE,MAAM;CAU7B"}

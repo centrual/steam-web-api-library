@@ -4,7 +4,7 @@
   "main": "Dist/index.js",
   "license": "MIT",
   "scripts": {
-    "dist": "del-cli 'dist/' && tsc",
+    "dist": "del-cli Dist && tsc",
     "test": "jest"
   },
   "dependencies": {

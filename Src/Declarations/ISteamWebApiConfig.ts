@@ -1,4 +1,4 @@
 export interface ISteamWebApiConfig {
-  SteamApiBaseUrl: string,
+  SteamApiBaseUrl?: string,
   ApiKey?: string
 }

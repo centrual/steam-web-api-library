@@ -1,6 +1,6 @@
 {
   "name": "steam_web_api_library",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "Dist/index.js",
   "license": "MIT",
   "scripts": {

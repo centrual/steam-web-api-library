@@ -1,8 +1,9 @@
 {
   "name": "steam_web_api_library",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "Dist/index.js",
   "license": "MIT",
+  "typings": "Dist/index.d.ts",
   "scripts": {
     "dist": "del-cli Dist && tsc",
     "test": "jest"

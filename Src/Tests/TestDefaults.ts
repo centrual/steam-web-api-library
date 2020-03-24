@@ -1,6 +1,6 @@
 export default {
   Steam: {
-    ApiKey: '136EF2F2C01694F6F7CDCDB748E3A82D',
+    ApiKey: 'AE61D4581CDD9F7601052557C453D4D8',
     RobinWalkersSteamId: '76561197960435530'
   }
 };

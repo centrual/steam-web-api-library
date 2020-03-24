@@ -1,12 +1,25 @@
 {
-  "name": "steam_web_api_library",
+  "name": "steam-web-api-library",
   "version": "1.0.2",
-  "main": "Dist/index.js",
+  "main": "index.js",
   "license": "MIT",
-  "typings": "Dist/index.d.ts",
+  "description": "Steam Web Api Library",
+  "repository": "https://github.com/centrual/steam-web-api-library.git",
+  "keywords": [
+    "steam",
+    "web",
+    "api",
+    "library"
+  ],
+  "author": {
+    "name": "Oğuz Özcan",
+    "email": "centrual@outlook.com",
+    "url": "https://oguzozcan.com/"
+  },
   "scripts": {
     "dist": "del-cli Dist && tsc",
-    "test": "jest"
+    "test": "jest",
+    "prepub": "del-cli Dist && tsc && copyfiles package.json README.md LICENSE .gitignore Dist && jest"
   },
   "dependencies": {
     "axios": "^0.19.2",
@@ -16,6 +29,7 @@
   "devDependencies": {
     "@types/jest": "^24.9.1",
     "@types/node": "^13.5.0",
+    "copyfiles": "^2.2.0",
     "del-cli": "^3.0.0",
     "jest": "^25.1.0",
     "ts-jest": "^25.0.0",
